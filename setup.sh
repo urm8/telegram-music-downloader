@@ -4,8 +4,8 @@ F1=$(which python3)
 F2=$(which pip3)
 F3=$(which ffmpeg)
 
-if [ -z "$(which python3)" ]; then
-	echo "Please install python3 with pip"
+if [ -z "$(which python)" ]; then
+	echo "Please install python with pip"
 	exit
 fi
 
